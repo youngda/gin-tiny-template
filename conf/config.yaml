@@ -1,0 +1,12 @@
+runmode: debug               # 开发模式, debug, release, test
+addr: :8080                  # HTTP绑定端口
+name: api                    # API Server的名字
+url: http://127.0.0.1:8080   # pingServer函数请求的API服务器的ip:port
+max_ping_count: 10           # pingServer函数try的次数
+log:
+  path: log/                 #日志保存目录
+db:                          #数据库配置
+  username: root             #数据库用户名
+  password: xxxxxxxxxxxx     #数据库密码
+  addr: 127.0.0.1:3306       #数据库地址
+  name: xxxx                 #数据库名称
